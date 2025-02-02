@@ -16,8 +16,6 @@ html {
     padding: 0; /* This allowed me to remove the padding */
 } 
 
-
-
 /* This is the CSS for the body */
 
 .information {
@@ -136,9 +134,10 @@ html {
     border: 10px solid #450d8f; /* This allowed me to change the SURROUNDING border color of the separator boxes */
     margin-bottom: 3rem; /* Adds a 20px margin to the bottom of the element if the root font size is 16px */
 }
-  
+
+
   .color .swatch:last-child {
-    margin-bottom: 0;
+    margin-bottom: 5; /* Adds a 5px margin to the bottom of the element FOCUS ON THE LAST-child= last element of that chain */
   }
   
   .color .swatch > div {
@@ -254,6 +253,8 @@ footer {
     background-color: #212121;
     line-height: 1.5;
     font-family: Merriweather, serif;
+    padding-top: 2rem;
+    padding-bottom: 1.66rem;
   }
   
   footer .image-container {
@@ -290,7 +291,7 @@ footer {
   
     footer .image-container {
       height: 300px;
-      margin-bottom: 2rem;
+      margin-bottom: 3rem;
       overflow: hidden;
     }
   }
