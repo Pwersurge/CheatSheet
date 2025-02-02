@@ -7,9 +7,27 @@
     font-weight: bold; /* This allowed me to make the font bold */
     color:khaki;    /* This allowed me to change the font color */
     text-align: center; /* This allowed me to center the text */
-    background-image: url("./images/pattern.jpeg"); /* This allowed me to insert a background image located in a local folder */
+    background-image: url("./images/roadbanner.jpg"); /* This allowed me to insert a background image located in a local folder */
     background-size: cover; /* This allowed me to cover the background image */
     background-position: center; /* This allowed me to center the background image */
     padding: 10px 0; /* Adjust padding as needed */
     position: relative; /* This allowed me to position the text */
+}
+
+.section1box {
+    font-family: Tahoma, Helvetica; /* This allowed me to change the font */
+    font-size: 20px; /* This allowed me to change the font size */
+    font-weight: bold; /* This allowed me to make the font bold */
+    color: white; /* This allowed me to change the font color */
+    text-align: center; /* This allowed me to center the text */
+    background-color: black; /* This allowed me to change the background color */
+    padding: 10px 0; /* Adjust padding as needed */
+    position: relative; /* This allowed me to position the text */
+}
+
+.coolwords {
+    font-family: Arial, Helvetica, sans-serif; /* This allowed me to change the font */
+    color: blue; /* This allowed me to change the font color */
+    font-weight: bold; /* This allowed me to make the font bold */
+    font-style: italic; /* This allowed me to make the font italic */
 }
