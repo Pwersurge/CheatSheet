@@ -134,7 +134,8 @@ html {
     display: flex;
     height: 6.6875rem;
     border: 10px solid #450d8f; /* This allowed me to change the SURROUNDING border color of the separator boxes */
-    margin-bottom: 1.25rem;
+    margin-bottom: 3rem; /* Adds a 20px margin to the bottom of the element if the root font size is 16px */
+}
   }
   
   .color .swatch:last-child {
@@ -245,7 +246,55 @@ html {
     background-color: hsl(20, 100%, 50%);
   }
 
+ /* Footer */
 
+footer {
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+    background-color: #212121;
+    line-height: 1.5;
+    font-family: Merriweather, serif;
+  }
+  
+  footer .image-container {
+    width: 400px;
+  }
+  
+  footer .content {
+    flex-grow: 1;
+    font-style: italic;
+    color: #9b9b9b;
+  }
+  
+  footer p {
+    padding-bottom: 1.66rem;
+  }
+  
+  footer p:last-child {
+    padding-bottom: 0;
+  }
+  
+  footer .author {
+    color: #ffb78c;
+  }
+  
+  footer em {
+    color: #cfcfcf;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    footer {
+      flex-direction: column;
+      padding: 0 10% 2rem 10%;
+    }
+  
+    footer .image-container {
+      height: 300px;
+      margin-bottom: 2rem;
+      overflow: hidden;
+    }
+  }
 
 /* reference for me 
 
