@@ -56,9 +56,15 @@ html {
     color: blue; /* This allowed me to change the font color */
     font-weight: bold; /* This allowed me to make the font bold */
     font-style: italic; /* This allowed me to make the font italic */
-    text-decoration: underline; /* This allowed me to underline the text */
+    /* STYLING text-decoration: underline; /* This allowed me to underline the text
+    You should always consider making your default link style match your color scheme. */ 
+    text-decoration: underline; 
 }
 
+/* additonal styling info - Tooltips & Titles
+Tooltips are small pop-ups that appear when you hover over a link or button. They provide additional information about the link or button.
+Titles are text that appears when you hover over an image or other elements. They provide additional information about the element.
+*/
 /* This is the CSS for the image imbedding them as container, allows to control within it */
 .image-container {
     text-align: center; /* Center the image and caption */
