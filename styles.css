@@ -127,13 +127,13 @@ html {
     margin-bottom: 1.25rem;
     font-size: 1.125rem;
     font-weight: bold;
-    color: #9B9B9B;
+    color: #0c0a92;     /* This allowed me to change the font color of lightness Saturation and hue headings */
   }
   
   .color .swatch {
     display: flex;
     height: 6.6875rem;
-    border: 10px solid #e6e6e6;
+    border: 10px solid #450d8f; /* This allowed me to change the SURROUNDING border color of the separator boxes */
     margin-bottom: 1.25rem;
   }
   
@@ -143,7 +143,7 @@ html {
   
   .color .swatch > div {
     flex-grow: 1;
-    border-right: 10px solid #e6e6e6;
+    border-right: 10px solid #e6e6e6; /* This allowed me to change the VERTICAL border color of the separator boxes */
   }
   
   .color .swatch > div:last-child {
@@ -179,7 +179,7 @@ html {
 /* Red Swatches */
 
 .reds .base-color {
-    color: hsl(350, 100%, 50%);
+    color: hsl(138, 76%, 40%);  /* This allowed me to change the font color of the "Our base red is .... text */
   }
   
   /* Red lightness decreases by 15 */
