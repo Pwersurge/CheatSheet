@@ -136,7 +136,6 @@ html {
     border: 10px solid #450d8f; /* This allowed me to change the SURROUNDING border color of the separator boxes */
     margin-bottom: 3rem; /* Adds a 20px margin to the bottom of the element if the root font size is 16px */
 }
-  }
   
   .color .swatch:last-child {
     margin-bottom: 0;
